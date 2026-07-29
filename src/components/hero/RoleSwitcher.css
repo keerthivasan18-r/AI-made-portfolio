@@ -1,0 +1,31 @@
+.role-switcher-container {
+  font-family: var(--font-heading);
+  font-size: clamp(18px, 2.2vw, 24px);
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 36px;
+}
+
+.role-prefix {
+  color: var(--text-secondary);
+}
+
+.role-text {
+  font-weight: 700;
+}
+
+.role-cursor {
+  display: inline-block;
+  width: 3px;
+  height: 24px;
+  background-color: var(--accent-secondary);
+  border-radius: var(--radius-full);
+  animation: blink 0.8s infinite alternate;
+}
+
+@keyframes blink {
+  0% { opacity: 1; }
+  100% { opacity: 0; }
+}

@@ -1,0 +1,243 @@
+.about-section {
+  padding: var(--space-12) 0;
+  position: relative;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--space-6);
+}
+
+.about-main-card {
+  padding: var(--space-6);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.about-card-title {
+  font-size: var(--font-h3);
+  color: var(--text-primary);
+}
+
+.about-bio-text {
+  font-size: var(--font-body-lg);
+  line-height: 1.7;
+  color: var(--text-secondary);
+}
+
+.about-education-box {
+  display: flex;
+  gap: var(--space-3);
+  padding: var(--space-3);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-md);
+}
+
+.education-icon {
+  font-size: 28px;
+}
+
+.education-details {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.edu-degree {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 16px;
+  color: var(--text-primary);
+}
+
+.edu-field {
+  font-size: 14px;
+  color: var(--accent-secondary);
+}
+
+.edu-focus {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 4px;
+}
+
+/* Internship Box */
+.about-internship-box {
+  padding: var(--space-3);
+  background: rgba(0, 224, 255, 0.04);
+  border: 1px solid rgba(0, 224, 255, 0.2);
+  border-radius: var(--radius-md);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.internship-badge-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.internship-icon {
+  font-size: 18px;
+}
+
+.internship-role {
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: 15px;
+  color: var(--accent-primary);
+}
+
+.internship-company {
+  font-size: 13px;
+  color: var(--text-secondary);
+  font-weight: 500;
+}
+
+.internship-bullet-list {
+  padding-left: var(--space-4);
+  margin: 4px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.internship-bullet-list li {
+  font-size: 13px;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+/* Languages */
+.about-languages-box {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-top: auto;
+  padding-top: var(--space-2);
+}
+
+.languages-label {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.languages-list {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.sub-heading {
+  font-size: var(--font-h3);
+  margin-bottom: var(--space-3);
+}
+
+.certs-heading {
+  margin-top: var(--space-6);
+}
+
+.philosophy-stack,
+.certifications-stack {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.philosophy-card,
+.cert-card {
+  padding: var(--space-4);
+}
+
+.pillar-header,
+.cert-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  margin-bottom: var(--space-1);
+}
+
+.pillar-num {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--accent-primary);
+}
+
+.pillar-title,
+.cert-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.cert-icon {
+  font-size: 22px;
+}
+
+.cert-title-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.cert-issuer {
+  font-size: 12px;
+  color: var(--accent-secondary);
+  font-weight: 600;
+}
+
+.pillar-desc,
+.cert-desc {
+  font-size: 14px;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.about-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--space-4);
+  margin-top: var(--space-8);
+}
+
+.stat-card {
+  padding: var(--space-4);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.stat-value {
+  font-family: var(--font-heading);
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+
+.stat-label {
+  font-size: var(--font-small);
+  color: var(--text-secondary);
+  margin-top: 4px;
+}
+
+@media (max-width: 900px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+  .about-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 480px) {
+  .about-stats-grid {
+    grid-template-columns: 1fr;
+  }
+}

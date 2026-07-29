@@ -1,0 +1,24 @@
+.glass-card-wrapper {
+  position: relative;
+  overflow: hidden;
+  will-change: transform;
+  transform-style: preserve-3d;
+}
+
+.glass-card-spotlight {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, rgba(0, 224, 255, 0.15) 0%, rgba(79, 140, 255, 0.05) 50%, transparent 80%);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  border-radius: 50%;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.glass-card-content {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+}

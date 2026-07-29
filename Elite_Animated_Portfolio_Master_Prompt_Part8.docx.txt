@@ -1,0 +1,24 @@
+Elite Animated Portfolio Specification - Part 8
+Responsive Design System
+1. Responsive Philosophy
+Design mobile-first while ensuring an exceptional experience on large displays. Every layout should adapt gracefully without hiding important information.
+2. Breakpoints
+Mobile: 320–479pxLarge Mobile: 480–767pxTablet: 768–1023pxLaptop: 1024–1439pxDesktop: 1440px and aboveUse fluid layouts between breakpoints instead of abrupt changes.
+3. Grid System
+Desktop uses a 12-column grid, tablet uses 8 columns, and mobile uses 4 columns. Maintain consistent gutters and alignment across all devices.
+4. Responsive Typography
+Scale headings and body text using CSS clamp() where possible. Preserve comfortable line lengths and spacing on every screen size.
+5. Navigation
+Desktop displays a full navigation bar. Tablet and mobile switch to an accessible hamburger menu with smooth slide-in animation and keyboard support.
+6. Images & Media
+Use responsive images with appropriate sizing, lazy loading, and modern formats where available. Prevent layout shifts by reserving image space.
+7. Component Behaviour
+Cards stack vertically on smaller screens, buttons expand where appropriate, and forms remain easy to complete with touch input.
+8. Touch Experience
+Interactive elements must have a minimum touch target of 44×44px. Avoid hover-only interactions by providing equivalent touch behaviour.
+9. Performance
+Load only essential assets on initial render, compress images, minimise JavaScript execution, and defer non-critical animations on low-powered devices.
+10. Testing
+Verify layouts on common mobile, tablet, laptop, and desktop resolutions in portrait and landscape orientations. Test scrolling, forms, navigation, and animations.
+Responsive Checklist
+✓ No horizontal scrolling✓ Consistent spacing across devices✓ Readable typography✓ Accessible navigation✓ Optimised images✓ Touch-friendly controls✓ Smooth animations✓ Stable layout with minimal cumulative layout shift✓ Cross-browser compatibility

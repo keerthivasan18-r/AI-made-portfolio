@@ -1,0 +1,45 @@
+.floating-tech-container {
+  position: absolute;
+  inset: -30px;
+  pointer-events: none;
+}
+
+.floating-tech-pill {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px;
+  background: rgba(13, 18, 36, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-full);
+  box-shadow: var(--shadow-sm);
+  font-family: var(--font-heading);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-primary);
+  animation: floatDrift 5s ease-in-out infinite alternate;
+}
+
+.tech-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+/* Position mapping around circular frame */
+.float-pos-1 { top: 5%; left: 0%; }
+.float-pos-2 { top: 20%; right: -5%; }
+.float-pos-3 { top: 50%; left: -10%; }
+.float-pos-4 { top: 65%; right: -8%; }
+.float-pos-5 { bottom: 10%; left: 5%; }
+.float-pos-6 { bottom: 0%; right: 10%; }
+.float-pos-7 { top: -5%; right: 25%; }
+.float-pos-8 { bottom: -8%; left: 30%; }
+
+@media (max-width: 768px) {
+  .floating-tech-container {
+    display: none;
+  }
+}

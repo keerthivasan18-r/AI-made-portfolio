@@ -1,0 +1,86 @@
+:root {
+  /* Colors */
+  --bg-primary: #050816;
+  --bg-primary-rgb: 5, 8, 22;
+  --bg-surface: rgba(255, 255, 255, 0.05);
+  --bg-surface-hover: rgba(255, 255, 255, 0.09);
+  --bg-card: rgba(13, 18, 36, 0.7);
+
+  /* Accents */
+  --accent-primary: #4F8CFF;
+  --accent-primary-rgb: 79, 140, 255;
+  --accent-secondary: #00E0FF;
+  --accent-secondary-rgb: 0, 224, 255;
+  --accent-glow: rgba(0, 224, 255, 0.25);
+  --accent-gradient: linear-gradient(135deg, #4F8CFF 0%, #00E0FF 100%);
+  --accent-gradient-alt: linear-gradient(135deg, #00E0FF 0%, #7000FF 100%);
+
+  /* Text */
+  --text-primary: #FFFFFF;
+  --text-secondary: #B7C3D7;
+  --text-muted: #64748B;
+  
+  /* Borders */
+  --border-subtle: rgba(255, 255, 255, 0.10);
+  --border-subtle-hover: rgba(0, 224, 255, 0.35);
+  --border-glow: rgba(79, 140, 255, 0.5);
+
+  /* Status */
+  --status-success: #22C55E;
+  --status-warning: #F59E0B;
+  --status-error: #EF4444;
+
+  /* Typography */
+  --font-heading: 'Outfit', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'Fira Code', monospace;
+
+  /* Typography Sizes */
+  --font-h1: clamp(38px, 5.5vw, 64px);
+  --font-h2: clamp(28px, 3.8vw, 42px);
+  --font-h3: clamp(20px, 2.5vw, 26px);
+  --font-body-lg: 18px;
+  --font-body: 16px;
+  --font-small: 14px;
+  --font-xs: 12px;
+
+  /* 8-Point Spacing Scale */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-6: 48px;
+  --space-8: 64px;
+  --space-12: 96px;
+  --space-16: 128px;
+
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 4px 12px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.4);
+  --shadow-glow: 0 0 30px rgba(79, 140, 255, 0.2);
+  --shadow-glow-cyan: 0 0 35px rgba(0, 224, 255, 0.25);
+
+  /* Motion & Easing */
+  --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-in-out-smooth: cubic-bezier(0.4, 0, 0.2, 1);
+  --duration-fast: 150ms;
+  --duration-normal: 300ms;
+  --duration-slow: 600ms;
+
+  /* Layout */
+  --max-width: 1200px;
+  --navbar-height: 76px;
+  --z-background: -1;
+  --z-normal: 1;
+  --z-card: 10;
+  --z-navbar: 1000;
+  --z-cursor: 9999;
+  --z-preloader: 10000;
+}

@@ -1,0 +1,35 @@
+Elite Animated Portfolio Design & Development Blueprint
+Version: 1.0Author: KeerthivasanPurpose: A complete specification for designing and developing a premium, production-ready Full Stack Developer portfolio.
+Table of Contents
+1. Vision & Product Requirements
+2. Motion Design System
+3. Website Architecture
+4. Premium UI/UX Design System
+5. React Architecture & Project Structure
+6. Premium Component Library
+7. Animation Implementation Guide
+8. Responsive Design System
+9. Performance, Accessibility, SEO & Production Readiness
+10. Ultimate Master Prompt
+1. Vision & Product Requirements
+Create a recruiter-focused portfolio that immediately communicates expertise, highlights flagship projects, and demonstrates engineering quality through thoughtful UI, motion, accessibility and performance.
+2. Motion Design System
+Adopt subtle, purposeful animations using transform and opacity. Include a loading screen, staggered hero animations, scroll reveals, interactive cards, animated navigation, floating background elements and reduced-motion support.
+3. Website Architecture
+Include Hero, About, Skills, Featured Projects, Timeline, GitHub Showcase, Contact and Footer. Highlight ChronoAI and Expense Tracker as primary projects. Use reusable layouts and consistent spacing.
+4. Premium UI/UX Design System
+Use a dark theme with glassmorphism, an 8-point spacing system, responsive typography, consistent colours, reusable buttons, accessible forms, and a cohesive visual language.
+5. React Architecture & Project Structure
+Build with React + Vite using reusable components, data-driven rendering, modular CSS, custom hooks, lazy loading and scalable folder organisation.
+6. Premium Component Library
+Define reusable Navbar, Hero, Buttons, Cards, Timeline, Contact Form, Footer, Loading Screen and Cursor components. Centralise colours, spacing, typography and animation tokens.
+7. Animation Implementation Guide
+Implement performant CSS and JavaScript animations with IntersectionObserver, requestAnimationFrame where appropriate, GPU-friendly transforms, accessible interactions and cross-browser testing.
+8. Responsive Design System
+Design mobile-first with fluid layouts, 12/8/4-column grids, touch-friendly controls, responsive media, adaptive navigation and comprehensive device testing.
+9. Performance, Accessibility, SEO & Production Readiness
+Target Lighthouse scores above 95. Optimise Core Web Vitals, implement WCAG-oriented accessibility, semantic HTML, metadata, structured data, security best practices and production deployment.
+10. Ultimate Master Prompt
+Act as a Senior Product Designer, UI/UX Engineer, Frontend Architect and React Developer.Build a premium portfolio for Keerthivasan.Personal Details:• Roles: Full Stack Developer, Software Engineer• Skills: HTML, CSS, JavaScript, React, Java, SQL, Git, GitHub• Projects:  - ChronoAI – AI Timetable Generator  - Expense Tracker  - University Website  - Simple Calculator  - Login Page  - Dice Roller Game  - Text to Voice ConverterRequirements:• React + Vite• Fully responsive• Premium dark theme• Glassmorphism• Smooth animations• Accessible• SEO-ready• Clean architecture• Reusable components• Optimised assets• Production-ready implementationDeliver a polished portfolio suitable for recruiters with modern engineering practices and exceptional UI/UX.
+Final Acceptance Criteria
+The completed portfolio should:• Showcase Keerthivasan professionally.• Emphasise ChronoAI and Expense Tracker.• Be fully responsive and accessible.• Achieve excellent performance.• Follow scalable React architecture.• Be deployment-ready for Vercel or Netlify.• Provide a premium user experience comparable to modern software product websites.

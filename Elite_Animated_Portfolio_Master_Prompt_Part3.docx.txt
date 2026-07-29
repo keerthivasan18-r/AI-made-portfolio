@@ -1,0 +1,22 @@
+Elite Animated Portfolio Specification - Part 3
+Complete Website Architecture
+1. Hero
+Full-screen (100vh) split layout. Left: greeting, name 'Keerthivasan', roles (Full Stack Developer, Software Engineer), concise value proposition, CTA buttons (View Projects, Download Resume). Right: premium profile image inside animated glass frame with floating tech icons (HTML, CSS, JS, React, Java, SQL, Git, GitHub). Background: animated grid, subtle blobs, mouse spotlight. Hero must answer who you are, what you build, and why recruiters should continue scrolling.
+2. About
+Two-column layout. Include professional summary, education, career objective, strengths, and development philosophy. Present information using timeline cards instead of long paragraphs. Animate each milestone on scroll.
+3. Skills
+Responsive grid of glass cards. Categorise into Frontend, Backend, Database, Tools. Skills: HTML, CSS, JavaScript, React, Java, SQL, Git, GitHub, REST APIs, Responsive Design. Hover glow, icon lift, animated proficiency bars (decorative, not percentages unless justified).
+4. Featured Projects
+First showcase ChronoAI as hero project with large banner, overview, architecture highlights, screenshots, tech stack, GitHub and Live Demo buttons. Second showcase Expense Tracker. Remaining projects in compact responsive grid: University Website, Simple Calculator, Login Page, Dice Roller Game, Text to Voice Converter. Every project card includes challenge, solution, technologies, and key features.
+5. Journey
+Vertical animated timeline: School → College → Full Stack Learning → Major Projects → Future Goals. Alternate card alignment with connecting line.
+6. GitHub
+Highlight GitHub profile, pinned repositories, contribution-inspired visual section, CTA to visit profile. Mention clean code and continuous learning.
+7. Contact
+Split layout. Left: contact details, LinkedIn, GitHub, email, phone, resume. Right: accessible contact form with validation and success animation.
+8. Footer
+Minimal footer with copyright, quick links, back-to-top button, subtle animated divider.
+Navigation & Layout Rules
+Sticky glass navbar with active section indicator, smooth scrolling, mobile hamburger menu, maximum content width ~1200px, consistent 8-point spacing system, generous whitespace, alternating section backgrounds for visual rhythm.
+Recruiter Experience Flow
+Within 5 seconds: identify your role.Within 15 seconds: see your strongest projects.Within 30 seconds: understand your technical skills.Within 60 seconds: have enough confidence to open your GitHub or resume.
